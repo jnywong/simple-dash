@@ -130,4 +130,7 @@ dmypy.json
 
 # Other
 output
+plots
 helper.py
+runAIDA.py
+oNeQuick.py

@@ -1,4 +1,4 @@
-name: env-plotly-dash
+name: env-dash
 channels:
   - conda-forge
 dependencies:
@@ -175,4 +175,4 @@ dependencies:
   - dash-core-components
   - dash-bootstrap-components
   - gunicorn
-prefix: /Users/wongj/opt/miniforge3/envs/env-plotly-dash
+prefix: /Users/wongj/opt/miniforge3/envs/env-dash
