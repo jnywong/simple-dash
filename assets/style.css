@@ -1,0 +1,69 @@
+body {
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+#main-body {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #563d7c;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 20px;
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    background-color: lightgrey;
+}
+
+footer a {
+    color: black;
+}
+
+.slurmfile {
+    border: 1px solid black;
+    background-color: ghostwhite;
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.dropdown-toggle {
+    color: white;
+}
+
+form {
+    max-width: 50em;
+}
+
+form#login-form {
+    max-width: 15em;
+}

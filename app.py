@@ -9,7 +9,6 @@ import glob
 from dash import Dash, html, dcc
 import dash_bootstrap_components as dbc
 import plotly.graph_objects as go
-# import plotly.express as px
 import pandas as pd
 import numpy as np
 import mpl_toolkits.basemap as basemap
@@ -306,41 +305,6 @@ def main(output_dir):
         width = 1200,
         height = 700
     )
-    # fig.update_layout(
-    #     mapbox_style="white-bg",
-    #     mapbox_layers=[
-    #         {
-    #             "below": 'traces',
-    #             "opacity": 0.6,
-    #             "sourcetype": "raster",
-    #             "sourceattribution": "United States Geological Survey",
-    #             "source": [
-    #                 "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/tile/{z}/{y}/{x}"
-    #             ]
-    #         }
-    #     ]
-    # )
-
-
-    # navbar = dbc.NavbarSimple(
-    #     children=[
-    #         dbc.NavItem(dbc.NavLink("Page 1", href="#")),
-    #         dbc.DropdownMenu(
-    #             children=[
-    #                 dbc.DropdownMenuItem("More pages", header=True),
-    #                 dbc.DropdownMenuItem("Page 2", href="#"),
-    #                 dbc.DropdownMenuItem("Page 3", href="#"),
-    #             ],
-    #             nav=True,
-    #             in_navbar=True,
-    #             label="More",
-    #         ),
-    #     ],
-    #     brand="NavbarSimple",
-    #     brand_href="#",
-    #     color="primary",
-    #     dark=True,
-    # )
 
     app.layout = html.Div(children=[
         html.Nav(
@@ -353,12 +317,6 @@ def main(output_dir):
                 )
             ]
         ),
-        # html.H1(
-        #     children="AIDA Dashboard",
-        #     style={"padding": "0 35px 20px 20px",
-        #         "font-family": "sans-serif"
-        #     },
-        # ),
         html.Div(
             dcc.Markdown(
                 """

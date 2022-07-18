@@ -3,7 +3,7 @@ Simple data viz with plotly dash
 
 ## Description
 
-Visaulise data with plotly and build a dash app for interactive filtering.
+Visualise data with plotly and build a dash app for interactive filtering.
 
 ## Getting Started
 
@@ -21,7 +21,7 @@ Visaulise data with plotly and build a dash app for interactive filtering.
 
 * Run the program using 
 ```
-python app.py <output_dir>
+python app.py output_dir
 ```
 
 ## Authors
